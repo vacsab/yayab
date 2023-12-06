@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "YAYAB (Yet Another Youtube Ad Blocker)",
+  "description": "Yet Another Youtube Adblocker",
+  "version": "1.0",
+  "action": {
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "matches": [
+        "https://www.youtube.com/*"
+      ]
+    }
+  ]
+}
