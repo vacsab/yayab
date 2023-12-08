@@ -1,6 +1,8 @@
-setInterval(() => {
-    const adProgressBar = document.querySelector('.ytp-ad-persistent-progress-bar-container');
-    if(adProgressBar && adProgressBar?.style.display !== 'none') {
-        document.querySelector('ytd-player').querySelector("video").currentTime = 10000
-    }
-}, 100)
+window.addEventListener('load', () => {
+  const videoElement = document.querySelector('.html5-video-container > video');
+  const adModule = document.querySelector('.ytp-ad-module');
+  
+  (new MutationObserver(() => {
+    videoElement.currentTime = 10000;
+  })).observe(adModule, { attributes: true, childList: true });
+})
