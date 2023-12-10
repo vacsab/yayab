@@ -1,0 +1,28 @@
+{
+  "name": "yayab",
+  "version": "1.0.0",
+  "description": "Yet Another Youtube Ad Blocker",
+  "main": "./scripts/content.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "precommit": "npx lint-staged",
+    "prepare": "husky install .husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vacsab/yayab.git"
+  },
+  "author": "Csaba Varga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vacsab/yayab/issues"
+  },
+  "homepage": "https://github.com/vacsab/yayab#readme",
+  "devDependencies": {
+    "eslint": "^8.55.0",
+    "eslint-config-google": "^0.14.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.2.0",
+    "prettier": "^3.1.1"
+  }
+}
