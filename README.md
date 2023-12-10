@@ -1,7 +1,7 @@
 # Steps to use the extension
 1. Checkout the repo
 2. (Optional) Create a feature branch and rename the extension in the manifest.json
-3. Follow these steps to load the extension from the local folder: https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world#load-unpacked
+3. Follow these steps to load the extension from the local `yayab/extension` folder: https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world#load-unpacked
 4. Enjoy!
 
 # Known Issues
